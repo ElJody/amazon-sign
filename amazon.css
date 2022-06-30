@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    line-height: 15px;
+    color: #111;      
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-content: center;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#email{
+    align-content: center;
+    padding-bottom: 1px;
+    width: 217px;
+    
+    
+}
+
+
+#email-phone {
+    padding-top: 1px;
+    font-weight: bolder;
+    display: flex;
+    align-items: left;
+}
+
+#continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    width: 225px;
+    margin-bottom: 0px;
+    background-color: burlywood;
+}
+
+#new-to-amazon {
+/*    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 1px;
+    width: 225px;
+    margin-bottom: 0px;
+    background-color: burlywood;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+#new-to-amazon p, #new-to-amazon a {
+    width: max-content;
+    display: flex;
+    
+    color: rgb(162, 119, 119);
+}
+    
+.new-to-amazon hr {
+    white-space: nowrap;
+    align-content: center;
+    width: 100%;
+    text-decoration-style: none;
+    border: 1px solid #bbb;
+    color: rgb(162, 119, 119);
+}
+    
+#create-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 241, 241);
+    width: 300px;
+    height: 25px;
+    margin: 15px;
+    border: .5px solid #bbb;
+/*    background-color: rgb(230, 221, 221);*/
+}
+
+footer {
+    border-top: 1px solid rgb(241, 236, 236);
+    background: linear-gradient (to bottom, rgba(246, 242, 242, 0.857), rgba(231, 10, 10, 0.03)(300px, blanchedalmond 100%));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/*gradient {
+    background: linear-gradient (to bottom, rgba(246, 242, 242, 0.857), rgba(231, 10, 10, 0.03) 300px, blanchedalmond 100%);
+    height: 20px;
+    width: 80%;
+    margin: auto;
+}*/
+
+footer #links {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
